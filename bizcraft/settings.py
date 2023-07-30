@@ -32,7 +32,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [["bizcraft.herokuapp.com", "localhost", '8000-mahsak89-bizcraft-ae5jmktztu.us2.codeanyapp.com']
+ALLOWED_HOSTS = ["bizcraft-5aebd6be5bdb.herokuapp.com", "localhost",
+                 '8000-mahsak89-bizcraft-ae5jmktztu.us2.codeanyapp.com']
 
 
 # Application definition
